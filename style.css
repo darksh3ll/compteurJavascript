@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    height: 400px;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column
+}
+
+.date {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-weight: 800;
+}
